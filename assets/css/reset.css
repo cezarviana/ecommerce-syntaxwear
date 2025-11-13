@@ -1,0 +1,90 @@
+/*
+ * ----------------------------------------
+ * 1. MODERN CSS RESET (Baseado em Andy Bell)
+ * ----------------------------------------
+ */
+
+/* 1.1. Configurações de Box Sizing */
+/* Usa border-box para todos os elementos, facilitando o cálculo de dimensões */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 1.2. Reset de Margem/Padding */
+/* Remove a margem padrão de elementos comuns, exceto em listas, que será tratado depois. */
+/* Isso evita o problema de "colapso de margem" inesperado. */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 1.3. Padrões de Elementos de Corpo e Títulos */
+/* Define fontes e altura de linha (line-height) para melhor legibilidade. */
+body {
+  /* Define uma altura de linha padrão para melhor legibilidade */
+  line-height: 1.5;
+  /* A linha abaixo pode ser útil para prevenir que a página pule quando a barra de rolagem
+     aparece, mas pode ser ajustada ou removida se causar problemas em navegadores específicos. */
+  /* overflow-x: hidden; */ 
+}
+
+/* Garante que imagens e vídeos se ajustem ao seu container. */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block; /* Remove o espaço extra abaixo de elementos de mídia */
+  max-width: 100%; /* Garante responsividade básica */
+}
+
+/* 1.4. Remoção de Decorações e Herança de Fonte */
+/* Remove estilos padrão que podem atrapalhar, como negrito em títulos e herança de fonte. */
+input,
+button,
+textarea,
+select {
+  font: inherit; /* Garante que elementos de formulário herdem a fonte do body */
+}
+
+/* 1.5. Acessibilidade e Estilos de Texto */
+/* Evita que texto muito longo em elementos preformatados estoure o layout. */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 1.6. Raiz do Empilhamento para Modal/Layout */
+/* Cria um contexto de empilhamento no elemento raiz. */
+#root, #__next {
+  isolation: isolate;
+}
+
+/*
+ * ----------------------------------------
+ * 2. CONFIGURAÇÕES GLOBAIS (Variáveis, Fontes, etc.)
+ * ----------------------------------------
+ */
+
+:root {
+  /* Exemplo de Variáveis CSS (Custom Properties) */
+  --color-primary: #5a2e9b;  /* Exemplo: Um roxo para a marca Syntaxwear */
+  --color-text-dark: #1a1a1a;
+  --color-text-light: #f5f5f5;
+  --font-size-base: 1rem;
+}
+
+body {
+    /* Define a fonte base do projeto. Você precisará importar a fonte 'Kryptos One'
+       ou uma similar se não for padrão do sistema. Por agora, usamos uma fallback. */
+    font-family: Arial, Helvetica, sans-serif; 
+    color: var(--color-text-dark);
+    font-size: var(--font-size-base);
+}
