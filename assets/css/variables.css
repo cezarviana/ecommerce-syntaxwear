@@ -1,62 +1,20 @@
-/*
- * ----------------------------------------
- * VARIABLES.CSS
- * Definições globais de Cores, Fontes e Espaçamento
- * ----------------------------------------
- */
-
- /*FONT UBUNTU - GOOGLE FONTS*/
+ /*FONTE UBUNTU - GOOGLE FONTS*/
 
  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 :root {
     /* 1. CORES */
     /* Cores da Marca e Interativas */
-    --color-brand: #5a2e9b; /* Um roxo/magenta escuro, a cor principal da marca */
+    --color-brand: #6528D3; /* Um roxo/magenta escuro, a cor principal da marca */
     --color-accent: #007bff; /* Exemplo: Azul padrão para links/botões */
     --color-success: #28a745;
     --color-danger: #dc3545;
 
     /* Cores Neutras e de Fundo */
-    --color-text-dark: #1a1a1a; /* Texto principal (preto quase puro) */
-    --color-text-light: #ffffff; /* Texto sobre fundos escuros */
-    --color-background-light: #f5f5f5; /* Fundo claro da página */
-    --color-background-card: #ffffff; /* Fundo de cartões/caixas */
-    --color-neutral-gray: #d3d3d3; /* Cinza claro para bordas/separadores */
-
-    /* Cores Específicas do Layout (Ex: fundos dos cards de destaque) */
-    --color-card-brown: #a89489; /* Cor de fundo do card 'Casual' */
-    --color-card-beige: #e5d1c2; /* Cor de fundo do card abaixo do Banner Secundário */
+    --color-dark-gray: #333333;
 
 
     /* 2. TIPOGRAFIA */
     /* Fontes */
-    --font-primary: 'Ubuntu', sans-serif; /* Usaremos Arial por ser padrão, mas idealmente seria a fonte 'Kryptos One' */
-    --font-secondary: 'Helvetica', sans-serif;
-
-    /* Tamanhos de Fonte */
-    --font-size-base: 1rem;       /* Tamanho base (16px) */
-    --font-size-sm: 0.875rem;     /* Pequeno (para legendas, notas) */
-    --font-size-lg: 1.125rem;     /* Grande (para subtítulos) */
-    --font-size-xl: 1.5rem;       /* Títulos de seção */
-    --font-size-xxl: 2.5rem;      /* Títulos Hero (H1) */
-
-    /* Pesos de Fonte (Font Weights) */
-    --font-weight-regular: 400;
-    --font-weight-medium: 500;
-    --font-weight-bold: 700;
-    
-    /* Espaçamento Padrão */
-    /* Baseado em uma escala de 8px (muito comum em design) */
-    --spacing-xs: 4px;
-    --spacing-sm: 8px;
-    --spacing-md: 16px;
-    --spacing-lg: 24px;
-    --spacing-xl: 48px;
-    --spacing-xxl: 64px;
-    
-    /* 4. OUTROS ELEMENTOS */
-    --border-radius-sm: 4px;
-    --border-radius-md: 8px;
-    --transition-speed: 0.3s;
+    --font-primary: 'Ubuntu', sans-serif; 
 }
