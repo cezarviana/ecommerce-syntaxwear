@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 12px;
+    padding: 0.255rem 1.25rem;
 }
 
 .logo img {
@@ -26,11 +26,14 @@
 .nav-right a {
     font-size: 1.25rem;
     font-weight: 400;
+    color: var(--color-dark-gray);
 }
 
 .nav-center a:hover,
 .nav-right a:hover {
-    color: #7c3aed;
+    color: var(--color-brand);
+    transition: ease-in-out 0.3s;
+    opacity: 0.7;
 }
 
 .nav-right ul {
