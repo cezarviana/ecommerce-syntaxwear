@@ -1,0 +1,58 @@
+.categories-section {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.category-card {
+    position: relative;
+    width: 317px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.category-card:hover {
+    transform: scale(1.02);
+    transition: ease-in-out 0.3s;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.category-name {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.category-card.casual {
+    background: url(../../images/products/tenis-casual.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.category-card.sport {
+    background: url(../../images/products/tenis-esporte.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.category-card.modern {
+    background: url(../../images/products/tenis-moderno.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.category-card.futurist {
+    background: url(../../images/products/tenis-futurista.jpg) no-repeat center;
+    background-size: cover;
+}
