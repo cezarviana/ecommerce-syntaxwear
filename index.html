@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/variables.css">
     <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
 
     <link rel="stylesheet" href="./assets/css/components/header.css">
     <link rel="stylesheet" href="./assets/css/components/hero.css">
@@ -32,34 +31,42 @@
                     alt="Syntaxwear - Tênis e Sneakers Online">
             </a>
         </h1>
-        <nav class="nav-center" aria-label="Categorias Principais">
-            <ul>
-                <li><a href="#">Masculino</a></li>
-                <li><a href="#">Feminino</a></li>
-                <li><a href="#">Outlet</a></li>
-            </ul>
-        </nav>
 
+        <input type="checkbox" class="menu-toggle" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <img src="./assets/images/icons/menu-hamburguer.svg" alt="Menu mobile">
+        </label>
 
-        <nav class="nav-right" aria-label="Acesso rápido">
-            <ul class="nav-links">
-                <li><a href="#">Nossas lojas</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li>
-                    <a href="#">
-                        <img src="./assets/images/icons/user.svg" alt="Minha conta">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./assets/images/icons/help.svg" alt="Ajuda">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./assets/images/icons/cart.svg" alt="Carrinho de compras">
-                    </a>
-                </li>
+        <nav class="nav-container">
+            <nav class="nav-center" aria-label="Categorias Principais">
+                <ul>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Outlet</a></li>
+                </ul>
+            </nav>
+
+            <nav class="nav-right" aria-label="Acesso rápido">
+                <ul class="nav-links">
+                    <li><a href="#">Nossas lojas</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/images/icons/user.svg" alt="Minha conta">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/images/icons/help.svg" alt="Ajuda">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/images/icons/cart.svg" alt="Carrinho de compras">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </nav>
     </header>
 
@@ -133,17 +140,22 @@
                 <div class="newsletter-form">
                     <p>Inscreva-se em nosso e-mail:</p>
                     <form action="#" method="POST">
-                        <input type="email" name="email" id="email-newsletter" placeholder="    email@email.com" required>
+                        <input type="email" name="email" id="email-newsletter" placeholder="    email@email.com"
+                            required>
                     </form>
                 </div>
 
                 <div class="social-media">
                     <p class="social-title">Redes sociais</p>
                     <ul class="social-icons">
-                        <li><a href="#" aria-label="Instagram"><img src="./assets/images/icons/instagram.svg" alt="ícone do instagram"></a></li>
-                        <li><a href="#" aria-label="WhatsApp"><img src="./assets/images/icons/whatsapp.svg" alt="ícone do instagram"></a></li>
-                        <li><a href="#" aria-label="TikTok"><img src="./assets/images/icons/tiktok.svg" alt="ícone do instagram"></a></li>
-                        <li><a href="#" aria-label="Facebook"><img src="./assets/images/icons/facebook.svg" alt="ícone do instagram"></a></li>
+                        <li><a href="#" aria-label="Instagram"><img src="./assets/images/icons/instagram.svg"
+                                    alt="ícone do instagram"></a></li>
+                        <li><a href="#" aria-label="WhatsApp"><img src="./assets/images/icons/whatsapp.svg"
+                                    alt="ícone do instagram"></a></li>
+                        <li><a href="#" aria-label="TikTok"><img src="./assets/images/icons/tiktok.svg"
+                                    alt="ícone do instagram"></a></li>
+                        <li><a href="#" aria-label="Facebook"><img src="./assets/images/icons/facebook.svg"
+                                    alt="ícone do instagram"></a></li>
                     </ul>
                 </div>
             </div>

@@ -35,7 +35,7 @@ main {
 
 .btn:hover {
     background-color: var(--color-brand);
-    border: var(--color-brand);
+    border: 2px solid var(--color-brand);
     color: #ffffff;
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
