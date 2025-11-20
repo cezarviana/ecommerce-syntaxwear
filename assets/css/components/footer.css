@@ -1,10 +1,13 @@
 .footer {
+    display: flex;
+    flex-direction: column;
     background-color: var(--color-dark-gray);
     color: #FFFFFF;
     margin-top: 40px;
 }
 
 .footer-content {
+    display: flex;
     max-width: 1360px;
     margin: 0 auto;
     padding: 2.5rem;
@@ -78,10 +81,11 @@
 }
 
 .footer-copyright {
-    display: flex;
+    text-align: center;
     padding: 1.875rem;
     font-size: 1.25rem;
     font-weight: 500;
+    border-top: 1px solid #FFFFFF;
 }
 
 @media (max-width: 1000px) {
