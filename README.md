@@ -27,10 +27,13 @@ Acesse o site aqui: [SyntaxWear](https://cezarviana.github.io/ecommerce-syntaxwe
 
 ## 🎨 Imagens do projeto
 <div align="center">
-  <p><em>(./images/gifs/syntaxwear.gif)</em></p>
-  <br><br>
-  <p><em>(./images/gifs/syntaxwear-mobile.gif)</em></p>
-  <br>
+
+
+<div align="center">
+<img src="./assets/images/gifs/syntaxwear.gif"  style="height: 300px; text-align: center;"> 
+<br><br>
+<img src="./assets/images/gifs/syntaxwear-mobile.gif"  style="height: 300px; text-align: center;"> <br>
+</div>
 </div>
 
 ## 💡 Decisões do projeto
@@ -90,5 +93,3 @@ Este é um projeto estático de front-end, então você não precisa de um servi
    Abra o arquivo `index.html` diretamente no seu navegador de preferência para visualizar o site.
 
 ---
-
-*Este README foi gerado com base em um template e adaptado para o projeto.*
