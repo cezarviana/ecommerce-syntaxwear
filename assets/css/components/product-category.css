@@ -56,3 +56,15 @@
     background: url(../../images/products/tenis-futurista.jpg) no-repeat center;
     background-size: cover;
 }
+
+
+@media screen and (max-width: 500px) {
+    .categories-section {
+        padding: 10px 0 0 0;
+        gap: 10px 0;
+    }
+
+    .category-card {
+        width: 100%;
+    }
+}

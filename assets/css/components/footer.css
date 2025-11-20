@@ -7,7 +7,7 @@
 .footer-content {
     max-width: 1360px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 2.5rem;
     display: flex;
     gap: 9.7rem;
 }
@@ -22,10 +22,12 @@
     font-size: 1rem;
 }
 
-#email-newsletter{
+#email-newsletter {
+    border-radius: 30px;
     width: 21.5rem;
     height: 2.75rem;
-    border-radius: 30px;
+    padding: 0.75rem 1.25rem;
+    color: #AAAAAA;
 }
 
 .social-media ul {
@@ -34,7 +36,7 @@
     margin-top: 1rem;
 }
 
-.social-media ul a:hover{
+.social-media ul a:hover {
     opacity: 0.7;
 }
 
@@ -45,31 +47,67 @@
 }
 
 .nav-column h4 {
+    color: var(--color-light-gray);
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    display: block;
     font-weight: 400;
 }
 
 .nav-column ul {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.25rem;
     width: 8.8rem;
     margin-top: 1rem;
 }
 
-.nav-column ul li a{
-    color: #FFFFFF;
+.nav-column ul ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.nav-column ul li a:hover{
+.nav-column ul li a {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.nav-column ul li a:hover {
     text-decoration: underline;
 }
 
 .footer-copyright {
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 1.875rem;
-    border-top: 1px solid #FFFFFF;
     font-size: 1.25rem;
     font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+
+    .footer {
+        margin-top: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .footer-nav-columns {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .social.media ul {
+        gap: 1rem;
+    }
+
+    .footer-copyright {
+        font-size: 1rem;
+        padding: 1.5rem 0 1.5rem;
+    }
+
 }
